@@ -1,6 +1,6 @@
 # Mod Settings
 
-Modified for vanilla Titanfall 2 by FlameRaptor. Credits to EladNLG.
+Forked .Modified for vanilla Titanfall 2 by FlameRaptor. Credits to EladNLG.
 
 ## Dependecies
 
