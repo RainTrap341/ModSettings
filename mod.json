@@ -1,0 +1,31 @@
+{
+    "Name": "Mod Settings",
+    "Version": "2.2.1",
+    "Description": "Modified for vanilla Titanfall 2 by FlameRaptor. Originally created by EladNLG. ",
+    "DownloadLink": "https://github.com/Glacir/ModSettings/releases/latest",
+    "LoadPriority": 2,
+    "Scripts": [
+        {
+            "Path": "ui/ms_slider.nut",
+            "RunOn": "UI"
+        },
+        {
+            "Path": "ui/menu_mod_settings.nut",
+            "RunOn": "UI",
+            "UICallback": {
+                "Before": "AddModSettingsMenu"
+            }
+        }
+    ],
+    "Dependencies": {
+        "PLAYER_HAS_ROGUELIKE_UI": "Roguelike (UI)",
+        "PLAYER_HAS_MOD_MANAGER": "ModManager"
+    },
+    "SaveFiles":
+    [
+        "settings"
+    ],
+    "Localisation": [
+        "resource/localization/mod_setting_%language%.txt"
+    ]
+}
